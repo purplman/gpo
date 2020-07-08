@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Orta balın hesablanması</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-wrapper">
+        <div class="form">
+          <div class="form-control">
+            <label for="">Kredit sayı</label>
+            <input class="credit" min="1" type="number" />
+          </div>
+          <div class="form-control">
+            <label for="">Bal</label>
+            <input class="point" min="1" type="number" />
+          </div>
+        </div>
+      </div>
+      <a href="" id="calculate" class="btn">Hesabla</a>
+      <a href="" class="add btn">Fənn əlavə et</a>
+
+      <div class="result-wrapper">Nəticə: <span class="result"></span></div>
+      <div class="error error-credit">
+        Krediti qeyd edin
+      </div>
+      <div class="error error-point">
+        Balınızı qeyd edin
+      </div>
+    </div>
+  </body>
+  <script src="jquery.min.js"></script>
+  <script src="main.js"></script>
+</html>
